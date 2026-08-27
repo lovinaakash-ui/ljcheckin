@@ -21,7 +21,7 @@ jobs:
           pip install requests beautifulsoup4 openpyxl playwright
           playwright install --with-deps chromium
 
-      - name: Run screener
+      - name: Run ljcheckin
         env:
           SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
           SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
