@@ -1,9 +1,7 @@
 name: ljcheckin Daily Run
 
 on:
-  schedule:
-    # 2:45 AM IST = 9:15 AM UTC
-    - cron: '45 3 * * 1-5'   # Mon–Fri only (stock market days)
+ 
   workflow_dispatch:           # manual trigger button
 
 jobs:
